@@ -67,7 +67,7 @@ class FirstScreen extends StatelessWidget {
   }
 }
 
-//ToDo Pass Data to the Second Screen
+//TODO: Pass Data to the Second Screen
 class SecondScreen extends StatelessWidget {
   SecondScreen({Key? key}) : super(key: key);
 
