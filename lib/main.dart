@@ -19,27 +19,9 @@ class MyApp extends StatelessWidget {
   }
 }
 
-class FirstScreen extends StatefulWidget {
+class FirstScreen extends StatelessWidget {
   FirstScreen({Key? key}) : super(key: key);
-
-  @override
-  _FirstScreenState createState() => _FirstScreenState();
-}
-
-class _FirstScreenState extends State<FirstScreen> {
   int counter = 0;
-
-  @override
-  void initState() {
-    // TODO: implement initState
-    super.initState();
-  }
-
-  @override
-  void dispose() {
-    // TODO: implement dispose
-    super.dispose();
-  }
 
   @override
   Widget build(BuildContext context) {
@@ -62,7 +44,7 @@ class _FirstScreenState extends State<FirstScreen> {
             SizedBox(height: 30),
             ElevatedButton(
               onPressed: () {
-                counter++;
+                //TODO: counter++
               },
               child: Text("counter++"),
             ),
