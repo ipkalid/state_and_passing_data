@@ -21,7 +21,6 @@ class MyApp extends StatelessWidget {
 
 class FirstScreen extends StatelessWidget {
   FirstScreen({Key? key}) : super(key: key);
-  int counter = 0;
 
   @override
   Widget build(BuildContext context) {
@@ -35,7 +34,7 @@ class FirstScreen extends StatelessWidget {
           mainAxisAlignment: MainAxisAlignment.center,
           children: [
             Text(
-              "$counter",
+              "counter",
               style: TextStyle(
                 fontSize: 28,
                 fontWeight: FontWeight.w900,
@@ -44,7 +43,7 @@ class FirstScreen extends StatelessWidget {
             SizedBox(height: 30),
             ElevatedButton(
               onPressed: () {
-                //TODO: counter++
+                //TODO: add a counter
               },
               child: Text("counter++"),
             ),
